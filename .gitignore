@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / stepped files
 __pycache__/
+.pytest_cache
 *.pyc
 *.pyd
 *.pyo
