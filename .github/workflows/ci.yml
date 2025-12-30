@@ -25,5 +25,6 @@ jobs:
             pip install -r ci-api-project/requirements-dev.txt
         
         - name: Run tests
+          working-directory: ci-api-project
           run: |
             pytest
