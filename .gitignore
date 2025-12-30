@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / stepped files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDEs and editors
+# Mentioned here for convenience, but better handled by a global gitignore
+# for personal preferences.
+# Visual Studio Code
+.vscode/
+# PyCharm
+.idea/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.whl
+*.egg
+
+# Testing
+.tox/
+.coverage
+.nox/
+
+# Virtual environment
+venv/
+env/
+/venv
+/env
+# Windows
+venv/Scripts/
+# Linux/macOS
+venv/bin/
+# Pipenv
+.venv/
+
+# Specific libraries and frameworks
+# Jupyter Notebook
+.ipynb_checkpoints
+# Django
+*.log
+local_settings.py
+# Flask
+instance/
+
+# Environments
+.env
+.flaskenv
+
+# Miscellaneous
+# OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
